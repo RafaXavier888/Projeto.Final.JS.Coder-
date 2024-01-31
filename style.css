@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('assets/background/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  
+  header {
+    background-color: rgba(255, 217, 0, 0.185); /* Amarelo transparente */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .genre-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: rgba(255, 215, 0, 0.7); /* Amarelo transparente */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgba(229, 187, 0, 0.7); /* Amarelo mais escuro ao passar o mouse */
+  }
+  
+  
+  .catalog-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    background-color: rgba(255, 215, 0, 0.7);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    border-radius: 6px;
+  }
+  
+  .movie-card h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  .synopsis {
+    overflow: hidden;
+    max-height: 80px; /* Altura máxima antes de ser cortada */
+    position: relative;
+  }
+
+  .show-more {
+    max-height: none; /* Mostra a sinopse completa quando a classe show-more é aplicada */
+  }
+
+  .read-more {
+    color: #007BFF; /* Cor do link "Ler mais" */
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+  }
+  

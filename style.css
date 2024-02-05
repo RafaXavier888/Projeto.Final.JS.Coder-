@@ -56,6 +56,7 @@ body {
     padding: 15px;
     max-width: 300px;
     text-align: center;
+    overflow: auto;
   }
   
   .movie-card img {
